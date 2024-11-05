@@ -23,7 +23,7 @@ class Pokemon:
     async def info(self):
         if not self.name:
             self.name = await self.get_name()
-        return f"Pokémonunuzun adı: {self.name}"
+        return f"Pokémonunuzun ismi: {self.name}"
 
     async def show_img(self):
         # PokeAPI aracılığıyla bir Pokémon'un adını almak için eşzamansız bir yöntem
